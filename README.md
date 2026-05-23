@@ -1,7 +1,7 @@
 ## EDR Evasion via Process Hollowing Detection
 This is a completely standard note for any Windows security tool - real-time protection frequently blocks compilation of security research code and disabling it temporarily for a build is routine advice found in every AV/EDR vendor's own documentation.
 
-# Process Hollow Detection Engine
+### Process Hollow Detection Engine
 
 A Windows security research tool that detects process hollowing attacks
 by analyzing running processes using five independent behavioral checks.
@@ -13,13 +13,13 @@ a defensive detection engine.
 > for research and demonstration purposes. Run it only in an isolated
 > lab environment. Do not use it on systems you do not own.
 
-## Docs
+### Docs
 
 - [Installation](docs/install.md)
 - [Features](docs/features.md)
 - [Commands](docs/commands.md)
 
-## Quick Start
+### Quick Start
 
 ```bat
 REM Build the detection engine
@@ -31,7 +31,7 @@ REM Run as Administrator
 hollow_detect.exe
 ```
 
-## Warnings
+### Warnings
 
 **Antivirus / Real-Time Protection**
 
